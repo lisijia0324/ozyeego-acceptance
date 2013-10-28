@@ -7,4 +7,4 @@ fi
 
 bundle check > /dev/null || bundle install
 
-bundle exec rake $@
+bundle exec cucumber features

@@ -1,10 +1,7 @@
 require 'rspec/expectations'
 require 'capybara'
-require 'capybara/selenium'
 require 'capybara/cucumber'
-require 'test/unit/assertions'
 
-World(Test::Unit::Assertions)
-
+Capybara.app_host = "http://www.ozyeego.com"
 Capybara.default_driver = :selenium
 World(Capybara)
