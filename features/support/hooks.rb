@@ -1,6 +1,6 @@
 Before do |scenario|
   # print out each scenario title
-  puts "Starting scenario: #{scenario.title}"
+  # puts "Starting scenario: #{scenario.title}"
 end
 
 After do |scenario|
