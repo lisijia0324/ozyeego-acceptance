@@ -7,4 +7,6 @@ fi
 
 bundle check > /dev/null || bundle install
 
+rm -rf out && mkdir out
+
 bundle exec cucumber features
