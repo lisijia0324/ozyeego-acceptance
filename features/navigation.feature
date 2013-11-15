@@ -2,7 +2,7 @@ Feature: Ozyeego Website Navigation
 	As a potential customer of Ozyeego
 	I want to browser the service of Ozyeego.com
 	So that I am able to click on menu item
-	
+
 Scenario: going to 产品 page service
 	Given I am on homepage of Ozyeego
 	When I click on 产品 button

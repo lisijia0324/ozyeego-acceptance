@@ -28,6 +28,6 @@ Then /^I should have one screenshot of apple device (.*) size$/ do |series|
 end
 
 Then /^I have one screenshot in (.*) \* (.*) screen size$/ do |width, height|
-  page.driver.browser.manage.window.resize_to(width.to_i, height.to_i)
+   page.driver.browser.manage.window.resize_to(width.to_i, height.to_i)
   page.save_screenshot("out/screenshot_#{width}_#{height}.png")
 end
